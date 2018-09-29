@@ -1,3 +1,8 @@
+body, html {
+    height: 100%;
+}
+
+
 /** HEADER STYLING */
 .header__site {
 	display: flex;
@@ -29,4 +34,15 @@
 		width: 55px;
 		height: auto;
 	}
+}
+
+/** COVER STYLING */
+.cover__background {
+	background-image: url("../img/process.jpg");
+	height: 40%;
+
+	/* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
