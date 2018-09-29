@@ -10,7 +10,7 @@
 }
 
 .header__img {
-	width: 50px;
+	width: 80px;
 	height: auto;
 }
 
@@ -22,4 +22,11 @@
 	text-align: right;
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+
+@media screen and (min-width: 480px) {
+	.header__img {
+		width: 55px;
+		height: auto;
+	}
 }
