@@ -1,0 +1,25 @@
+/** HEADER STYLING */
+.header__site {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.header__logo {
+	width: 50%;
+	text-align: left;
+}
+
+.header__img {
+	width: 50px;
+	height: auto;
+}
+
+.header__headings {
+	width: 50%;
+
+}
+.header__text {
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
