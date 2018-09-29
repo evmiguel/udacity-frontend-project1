@@ -46,3 +46,11 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/** ICON STYLING */
+.social__icons {
+	padding-top: 5px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}
