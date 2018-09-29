@@ -4,7 +4,7 @@ body, html {
 
 
 /** HEADER STYLING */
-.header__site {
+.header__site, .social__icons {
 	display: flex;
 	flex-flow: row nowrap;
 }
@@ -50,7 +50,18 @@ body, html {
 /** ICON STYLING */
 .social__icons {
 	padding-top: 5px;
-	display: flex;
-	flex-flow: row nowrap;
 	justify-content: space-evenly;
 }
+
+/** FEATURED STYLING */
+.featured__header {
+	text-align: center;
+}
+
+.featured__work {
+	max-width: 100%;
+    height: auto;
+}
+
+.featured__description{
+	text-align: center;
