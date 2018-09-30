@@ -4,8 +4,7 @@ body, html. hr {
 }
 
 h1, h2, h3, h4, p, figcaption, a {
-	font-family: 'Roboto', sans-serif;
-	font-weight: lighter;
+	font-family: 'Lato', sans-serif;
 	color: #755e5e
 }
 
@@ -71,6 +70,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     flex-grow: 2;
+}
+
+.cover__first {
+	padding-top: 150px;
+}
+
+.cover__text {
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 /** ICON STYLING */
