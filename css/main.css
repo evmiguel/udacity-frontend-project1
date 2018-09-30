@@ -3,10 +3,6 @@ body, html. hr {
     width: 100%;
 }
 
-body {
-	margin: 20px 20px 20px 20px;
-}
-
 h1, h2, h3, h4, p, figcaption, a {
 	font-family: 'Roboto', sans-serif;
 	font-weight: lighter;
@@ -15,6 +11,12 @@ h1, h2, h3, h4, p, figcaption, a {
 
 hr {
 	color: #755e5e
+}
+
+body {
+	background-image: url("../img/cool-background.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 
@@ -43,23 +45,26 @@ hr {
 .header__img {
 	width: 80px;
 	height: auto;
+	border-radius: 50%;
 }
 
 .header__headings {
 	width: 50%;
-
+	margin-top: 30px;
 }
+
 .header__text {
 	text-align: right;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	color: #fff;
 }
 
 /** COVER STYLING */
 .cover__section {
 	order: 1;
 	background-image: url("../img/process.jpg");
-	height: 250px;
+	height: 300px;
 
 	/* Center and scale the image nicely */
     background-position: right;
@@ -99,7 +104,7 @@ hr {
 
 .featured__header {
 	text-align: center;
-	text-decoration: underline;
+	margin-bottom: 0;
 }
 
 .featured__work {
@@ -112,13 +117,6 @@ hr {
 }
 
 /******* MEDIA QUERIES **********/
-@media screen and (min-width: 480px) {
-	.header__img {
-		width: 55px;
-		height: auto;
-	}
-}
-
 @media screen and (min-width: 545px) and (max-width: 621px) {
 	.site {
 		display: flex;
@@ -155,6 +153,7 @@ hr {
 		height: auto;
 		width: 60%;
 		margin-right: 0px;
+		margin-bottom: 10px;
 	}
 
 	.social__section {
@@ -182,6 +181,8 @@ hr {
 	.social__icon {
 		height: auto;
 		width: 60%;
+		margin-right: 0px;
+		margin-bottom: 10px;
 	}
 
 	.social__section {
@@ -252,5 +253,7 @@ hr {
 	.social__icon {
 		height: auto;
 		width: 60%;
+		margin-right: 0px;
+		margin-bottom: 10px;
 	}
 }
