@@ -1,4 +1,4 @@
-body, html {
+body, html. hr {
     height: 100%;
     width: 100%;
 }
@@ -15,6 +15,10 @@ body, html {
 .header__site, .social__icons {
 	display: flex;
 	flex-flow: row nowrap;
+}
+
+.header__section {
+	width: 100%;
 }
 
 .header__logo {
@@ -44,9 +48,10 @@ body, html {
 	height: 250px;
 
 	/* Center and scale the image nicely */
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+    flex-grow: 2;
 }
 
 /** ICON STYLING */
@@ -57,6 +62,11 @@ body, html {
 .social__icons {
 	padding-top: 5px;
 	justify-content: space-evenly;
+}
+
+.social__icon {
+	height: 50%;
+	width: auto;
 }
 
 /** FEATURED STYLING */
@@ -85,6 +95,90 @@ body, html {
 	}
 }
 
+@media screen and (min-width: 580px) and (max-width: 621px) {
+	.site {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.featured__items {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+	}
+
+	.featured__item {
+		flex-basis: 200px;
+		margin-left: 5px;
+		margin-right: 5px;
+
+	}
+
+	.cover__section {
+		order: 2;
+		width: 87%;
+	}
+
+	.social__icons {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.social__icon {
+		height: auto;
+		width: 60%;
+	}
+
+	.social__section {
+		order: 1;
+	}
+
+}
+
+@media screen and (min-width: 620px) and (max-width: 739px) {
+	.site {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.cover__section {
+		order: 2;
+		width: 88%;
+	}
+
+	.social__icons {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.social__icon {
+		height: auto;
+		width: 60%;
+	}
+
+	.social__section {
+		order: 1;
+	}
+
+	.featured__items {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+	}
+
+	.featured__section {
+		order: 10;
+	}
+
+
+	.featured__item {
+		flex-basis: 300px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+}
+
 @media screen and (min-width: 740px) {
 	.site {
 		display: flex;
@@ -96,8 +190,22 @@ body, html {
 		width: 90%;
 	}
 
+	.featured__items {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+
 	.featured__section {
 		order: 10;
+	}
+
+	.featured__header {
+		text-align: left;
+	}
+
+	.featured__item {
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 
 	.social__section {
@@ -107,5 +215,10 @@ body, html {
 	.social__icons {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.social__icon {
+		height: auto;
+		width: 60%;
 	}
 }
