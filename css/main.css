@@ -2,6 +2,12 @@ body, html {
     height: 100%;
 }
 
+/** SITE STYLING */
+.site {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
 
 /** HEADER STYLING */
 .header__site, .social__icons {
