@@ -95,7 +95,7 @@ body, html. hr {
 	}
 }
 
-@media screen and (min-width: 580px) and (max-width: 621px) {
+@media screen and (min-width: 545px) and (max-width: 621px) {
 	.site {
 		display: flex;
 		flex-flow: row wrap;
@@ -108,15 +108,18 @@ body, html. hr {
 	}
 
 	.featured__item {
-		flex-basis: 200px;
+		flex-basis: 250px;
 		margin-left: 5px;
 		margin-right: 5px;
+	}
 
+	.featured__website, .featured__project {
+		flex-grow: 1;
 	}
 
 	.cover__section {
 		order: 2;
-		width: 87%;
+		flex-basis: 400px;
 	}
 
 	.social__icons {
@@ -127,6 +130,7 @@ body, html. hr {
 	.social__icon {
 		height: auto;
 		width: 60%;
+		margin-right: 0px;
 	}
 
 	.social__section {
@@ -166,13 +170,17 @@ body, html. hr {
 		justify-content: space-evenly;
 	}
 
+	.featured__website, .featured__project {
+		flex-grow: 1;
+	}
+
 	.featured__section {
 		order: 10;
 	}
 
 
 	.featured__item {
-		flex-basis: 300px;
+		flex-basis: 270px;
 		margin-left: 5px;
 		margin-right: 5px;
 	}
