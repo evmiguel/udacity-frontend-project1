@@ -1,6 +1,5 @@
-body, html. hr {
+body, html {
     height: 100%;
-    width: 100%;
 }
 
 h1, h2, h3, h4, p, figcaption, a {
@@ -110,8 +109,6 @@ body {
     border-width: 1px;
     border-radius: 5px;
     padding-bottom: 10px;
-    padding-left: auto;
-    padding-right: auto;
 }
 
 .featured__header {
